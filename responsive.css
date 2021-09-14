@@ -1,0 +1,269 @@
+@media only screen and (max-width:1660px) {
+
+    .sub_background {
+        transition: all ease .5s;
+    }
+    .sub_background .min_icon i {
+        opacity: 1;
+        transition: all ease .5s;
+    }
+    .min_icon i {
+        opacity: 1;
+        visibility: visible;
+    }
+    .dashBoardAdd {
+        width: 1150px !important;
+        transition: all ease .5s;
+    }
+    .icon:hover {
+        background: #d5545400 !important;
+        color: #000;
+    }
+    .change_icon_hover:hover{
+        background: rgb(0, 162, 255) !important;
+        color: rgb(230, 225, 225);
+    }
+    /**chang***/
+    .change_opacity{
+        opacity: 1 !important;
+        position: static !important;
+        margin: 0 25px !important;
+    }
+
+    .change_width{
+        width: 300px !important;
+    }
+
+
+
+    .icon i {
+        position: absolute;
+        right: 12px;
+        margin: 0;
+    }
+    .icon span {
+        opacity: 0;
+    }
+    img#img1 {
+        opacity: 0;
+        transition: all ease .5s;
+    }
+    .background {
+        width: 60px;
+    }
+
+    .icon-profile {
+        width: 97%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 23px;
+    }
+    .top-customer {
+        width: 96%;
+        margin: 0 24px;
+    }
+    .box {
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (min-width:1330px) and (max-width:1450px) {
+    .dashBoardAdd {
+        width: 1000px !important;
+        transition: all ease .5s;
+    }
+    .income {
+        display: flex;
+        justify-content: space-around;
+    }
+    .dashBoard {
+        width: 100%;
+    }
+    .box{
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (min-width:1270px) and (max-width:1330px) {
+    .dashBoardAdd {
+        width: 940px !important;
+        transition: all ease .5s;
+    }
+    .income {
+        display: flex;
+        justify-content: space-around;
+    }
+    .dashBoard {
+        width: 100%;
+    }
+    .box{
+        width: 70%;
+    }
+    
+}
+
+@media only screen and (min-width:1000px) and (max-width:1270px) {
+    .icon-profile {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .dashBoardAdd {
+        width: 800px !important;
+        transition: all ease .5s;
+    }
+    .new_add{
+        width: 675px !important;
+    }
+    .charts-box {
+        width: 100%;
+    }
+    .income-box {
+        display: flex;
+        height: 370px;
+        width: 650px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .icon-flex {
+        display: grid;
+        width: 300px;
+        height: 370px;
+        align-content: space-between;
+    }
+    .box {
+        width: 87%;
+    }
+    .income {
+        display: grid;
+        justify-content: space-around;
+    }
+    .top-customer {
+        display: grid;
+        justify-content: center;
+    }
+    .all-customer, #all-customer {
+        width: 620px;
+        height: 270px;
+        margin-bottom: 30px;
+        padding: 0 12px;
+    }
+}
+
+@media only screen and (min-width:830px) and (max-width:1000px) {
+    .change_width {
+        width: 230px !important;
+    }
+    .icon-profile {
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .dashBoardAdd {
+        width: 800px !important;
+        transition: all ease .5s;
+    }
+    .charts-box {
+        width: 540px;
+    }
+    .income-box {
+        width: 500px;
+        height: 600px;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .icon-flex {
+        display: flex;
+        align-content: space-between;
+        flex-direction: column;
+    }
+    .box {
+        width: 500px;
+    }
+    .income {
+        display: grid;
+    }
+    .sub-box {
+        width: 440px;
+        margin-bottom: 28px;
+    }
+    .top-customer {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 35px 0;
+    }
+    .all-customer, #all-customer {
+        width: 510px;
+        height: 270px;
+        margin-bottom: 30px;
+        padding: 0 12px;
+    }
+}
+
+@media only screen and (max-width:829px) {
+    .Side_bur {
+        position: fixed;
+        z-index: 99999 !important;
+        background: #ddd;
+    }
+    .dashBoard {
+        padding: 0 85px;
+    }
+    .icon-profile {
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .dashBoardAdd {
+        width: 800px !important;
+        transition: all ease .5s;
+    }
+    .charts-box {
+        width: 540px;
+    }
+    .income-box {
+        width: 500px;
+        height: 600px;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .icon-flex {
+        display: flex;
+        align-content: space-between;
+        flex-direction: column;
+    }
+    .box {
+        width: 500px;
+    }
+    .income {
+        display: grid;
+    }
+    .sub-box {
+        width: 440px;
+        margin-bottom: 28px;
+    }
+    .top-customer {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 35px 0;
+    }
+    .all-customer, #all-customer {
+        width: 510px;
+        height: 270px;
+        margin-bottom: 30px;
+        padding: 0 12px;
+    }
+}
